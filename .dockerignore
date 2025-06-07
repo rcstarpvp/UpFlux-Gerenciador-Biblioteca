@@ -1,0 +1,39 @@
+# .NET files
+**/bin/
+**/obj/
+**/.vs/
+**/.vscode/
+**/TestResults/
+**/*.user
+**/*.suo
+**/*.csproj.user
+
+# Node.js files
+**/node_modules/
+**/dist/
+**/.angular/
+**/coverage/
+
+# Git files
+.git/
+.gitignore
+**/.git/
+**/.gitignore
+
+# Docker files
+**/Dockerfile
+**/docker-compose*.yml
+**/.dockerignore
+
+# OS files
+**/.DS_Store
+**/Thumbs.db
+
+# IDE files
+**/.idea/
+**/*.swp
+**/*.swo
+
+# Logs
+**/logs/
+**/*.log

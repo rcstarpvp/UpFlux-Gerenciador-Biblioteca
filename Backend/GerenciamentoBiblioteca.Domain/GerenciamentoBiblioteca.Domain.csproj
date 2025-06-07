@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Exceptions\**" />
+    <Compile Remove="Infrastructure\**" />
+    <Compile Remove="Services\**" />
+    <Compile Remove="ValueObjects\**" />
+    <EmbeddedResource Remove="Exceptions\**" />
+    <EmbeddedResource Remove="Infrastructure\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <EmbeddedResource Remove="ValueObjects\**" />
+    <None Remove="Exceptions\**" />
+    <None Remove="Infrastructure\**" />
+    <None Remove="Services\**" />
+    <None Remove="ValueObjects\**" />
+  </ItemGroup>
+
+</Project>
